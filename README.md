@@ -4,7 +4,7 @@
 
 |직책|이름|학번|Mail|ID|
 |:-:|:-:|:-:|:-:|:-:|
-|팀장|박민재|2018312327|cnsanet@gmail.com|mainjae1025|
+|팀장|박민재|2018312327|cnsanet@gmail.com|minjae1025|
 |멤버|강원모|2017312381|dnjsah1230@gmail.com|DropFL|
 |멤버|이승재|2016314718|rotmdehf@naver.com|rotmdwo|
 |멤버|조규상|2015314136|kyusang200@naver.com|kyusang200|
