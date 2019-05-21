@@ -12,4 +12,4 @@
 
 ## Project Info: TBD
 
-현재 프로젝트 주제가 정해지지 않은 상태입니다.
+Project Topic : Chatterbot
