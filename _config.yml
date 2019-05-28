@@ -1,9 +1,9 @@
 # Site settings
-title_left    : "Think"
-title_right   : "space" # default: ""
-description   : "Minimalist Jekyll theme for technical writing blog."
+title_left    : "SKKU OSS L3"
+title_right   : "Project"
+description   : "성균관대학교 오픈소스 소프트웨어 실습 프로젝트 페이지"
 keywords      : "Jekyll, theme, free, download, SEO, blog, web, minimalist, thinkspace"
-url           : https://heiswayi.github.io/thinkspace # site url
+url           : https://19-1-skku-oss.github.io/2019-1-OSS-L3/ # site url
 baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
 cover         : "" # image uri like logo/cover image for site seo
 
@@ -28,7 +28,7 @@ sass:
 
 # Author settings
 author:
-  name     : "John Doe"
+  name     : "OSS L3"
 
 plugins:
   - jekyll-sitemap
