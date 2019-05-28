@@ -4,7 +4,7 @@ echo "Hello!"
 
 sudo apt install -y git zip unzip python2.7 python3 python3-pip
 python3 -m pip install virtualenv
-git clone https://github.com/gunthercox/ChatterBot.git ChatterBot
+git clone https://github.com/19-1-skku-oss/2019-1-OSS-L3.git ChatterBot
 cd ChatterBot
 python3 -m virtualenv ChatterBotEnv
 ./ChatterBotEnv/bin/pip3  install -r requirements.txt
