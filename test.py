@@ -15,8 +15,5 @@ trainer.train("chatterbot.corpus.english.greetings")
 # Train based on the english conversations corpus
 trainer.train("chatterbot.corpus.english.conversations")
 
-print("good")
-
-# Get a response to an input statement
-chatbot.get_response("Hello")
-print("not good")
+print("The test.py answer is:")
+print(chatbot.get_response("Hello"))
