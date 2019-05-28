@@ -2,7 +2,7 @@
 
 echo "Hello!"
 
-sudo apt install -y git zip unzip python3 python3-virtualenv
+sudo apt install -y git zip unzip python3 python3-pip python3-virtualenv
 mkdir ChatterBot
 cd ChatterBot
 python3 -m virtualenv ChatterBotEnv
