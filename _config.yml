@@ -27,7 +27,7 @@ collections:
     _hide_content: true
 
 paginate: 10
-paginate_path: "/blog/:num/"
+paginate_path: "/posts/:num/"
 permalink: pretty
 
 defaults:
@@ -43,7 +43,7 @@ defaults:
           height: 2500
   -
     scope:
-      path: ""
+      path: "members"
       type: "staff_members"
     values:
       _options:
