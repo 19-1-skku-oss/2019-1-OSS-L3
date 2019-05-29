@@ -1,9 +1,5 @@
-- name: Pricing
-  link: /pricing/
-  new_window: false
-  highlight: false
-- name: Blog
-  link: /blog/
+- name: Post
+  link: /posts/
   new_window: false
   highlight: false
 - name: Team
