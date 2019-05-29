@@ -1,3 +1,5 @@
-/ChatterBot/**/*
+/ChatterBotEnv
 **/*.pyc
 /.vscode
+**/*.json
+db.sqlite3
