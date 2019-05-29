@@ -1,8 +1,5 @@
-# ----
-# Site
-
-title: Hydra Template
-url: "https://proud-alligator.cloudvent.net"
+title: OSS L3 Homepage
+url: "https://19-1-skku-oss.github.io/2019-1-OSS-L3"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
@@ -23,7 +20,7 @@ social:
 # -----
 # Build
 
-timezone: Etc/UTC
+timezone: Asia/Seoul
 
 collections:
   staff_members:
@@ -89,16 +86,16 @@ exclude:
 # -----------
 # CloudCannon
 
-social_icons:
-  - Facebook
-  - Google Plus
-  - Instagram
-  - LinkedIn
-  - Pinterest
-  - Tumblr
-  - Twitter
-  - YouTube
-  - RSS
+#social_icons:
+#  - Facebook
+#  - Google Plus
+#  - Instagram
+#  - LinkedIn
+#  - Pinterest
+#  - Tumblr
+#  - Twitter
+#  - YouTube
+#  - RSS
 
 _comments:
   map: Update the map location and display settings.
