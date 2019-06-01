@@ -61,7 +61,7 @@ class Trainer(object):
             if statement.in_response_to:
                 result.add((statement.in_response_to, statement.text))
 
-        return list(result)
+        return list(map(list, result))
 
     def export_for_training(self, file_path='./export.json'):
         """
