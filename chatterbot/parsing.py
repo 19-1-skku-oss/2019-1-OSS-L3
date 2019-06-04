@@ -28,7 +28,7 @@ re_duration = r'(before|after|earlier|later|ago|from\snow)'
 re_year = r'(19|20)\d{2}|^(19|20)\d{2}'
 re_timeframe = r'this|coming|next|following|previous|last|end\sof\sthe'
 re_ordinal = r'st|nd|rd|th|first|second|third|fourth|fourth|' + re_timeframe
-re_time = r'(?P<hour>\d{1,2})(\:(?P<minute>\d{1,2})(\sam|pm)?|\s?(?P<convention>am|pm))'
+re_time = r'(?P<hour>\d{1,2})(?=\s?(\:\d|(a|p)m))(\:(?P<minute>\d{1,2}))?(\s?(?P<convention>(am|pm)))?'
 re_separator = r'of|at|on'
 
 NUMBERS = {
@@ -645,7 +645,7 @@ def date_from_adverb(base_date, name):
     # Reset date to start of the day
     adverb_date = datetime(base_date.year, base_date.month, base_date.day)
     if name == 'today' or name == 'tonite' or name == 'tonight':
-        return adverb_date.today()
+        return adverb_date.today().replace(hour=0, minute=0, second=0, microsecond=0)
     elif name == 'yesterday':
         return adverb_date - timedelta(days=1)
     elif name == 'tomorrow' or name == 'tom':
