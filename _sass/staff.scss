@@ -31,14 +31,18 @@
 		}
 
 		.blurb {
+			display: table;
 			position: absolute;
-			top: 40%;
 			left: 15%;
 			width: 70%;
+			height: 100%;
 			opacity: 0;
 			transition: 0.3s;
-			color: #666;
-			opacity: 0;
+
+			.elem {
+				display: table-cell;
+				vertical-align: middle;
+			}
 		}
 	}
 
