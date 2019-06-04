@@ -19,5 +19,5 @@ userinput = "hi"
 while not userinput == "exit":
   print("chatterbot: ", end = "")
   print(chatbot.get_response(userinput))
-  print("input (enter \"exit\" to exit): ",end = "")
+  print("(enter \"exit\" to exit): ",end = "")
   userinput = input()
