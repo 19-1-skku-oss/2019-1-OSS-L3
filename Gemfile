@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'jekyll', '3.7.2'
+gem 'jekyll', '>=3.7.2'
 
 group :jekyll_plugins do
   gem 'jekyll-archives', '2.1.1'
@@ -8,4 +8,6 @@ group :jekyll_plugins do
   gem 'jekyll-paginate', '1.1.0'
   gem 'jekyll-seo-tag', '2.4.0'
   gem 'jekyll-sitemap', '1.2.0'
+  gem 'tzinfo'
+  gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 end

@@ -22,10 +22,35 @@
 	.square-image {
 		width: 200px;
 		height: 200px;
-			img {
-				border-radius: 200px;
-			}
+		img {
+			border-radius: 200px;
+			opacity: 1;
+			transition: 0.3s;
+			width: 100%;
+			height: 100%;
 		}
+
+		.blurb {
+			position: absolute;
+			top: 40%;
+			left: 15%;
+			width: 70%;
+			opacity: 0;
+			transition: 0.3s;
+			color: #666;
+			opacity: 0;
+		}
+	}
+
+	.square-image:hover {
+		img {
+			opacity: 0.6;
+		}
+
+		.blurb {
+			opacity: 1;
+		}
+	}
 
 	.name {
 		font-size: 1.3em;
