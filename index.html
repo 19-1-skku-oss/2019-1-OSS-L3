@@ -1,27 +1,122 @@
 ---
-layout: default
-title: Home
+title: OSS Team L3 Page
+description: 오픈소스소프트웨어 프로젝트 팀 L3의 홈페이지입니다.
 ---
 
-{% include intro.html %}
-
-<section class="post-list">
-  <div class="container">
-    {% for post in site.posts %}
-      {% unless post.next %}
-        <h2 class="category-title">{{ post.date | date: '%Y' }}</h2>
-      {% else %}
-        {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-        {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-        {% if year != nyear %}
-          <h2 class="category-title">{{ post.date | date: '%Y' }}</h2>
-        {% endif %}
-      {% endunless %}
-      <article class="post-item">
-        <span class="post-meta date-label">{{ post.date | date: "%b %d" }}</span>
-        <div class="article-title"><a class="post-link" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a></div>
-      </article>
-    {% endfor %}
-  </div>
-
+<section class="hero">
+	<div class="text-container">
+		<h1 class="editable"><strong>TEAM L3</strong></h1>
+		<p class="subtext editable">오픈소스소프트웨어 프로젝트 팀 L3의 홈페이지입니다. </br> 저희는 <a
+				href="https://github.com/gunthercox/ChatterBot">ChatterBot</a>
+			프로젝트에 기여하는 것을 목표로 삼고 있습니다.</p>
+		<div>
+			<img src="./images/mainproject.png" alt="Screenshot" class="screenshot editable" />
+		</div>
+	</div>
 </section>
+
+<div class="content">
+	<section>
+		<div class="container flex">
+			<div class="text editable">
+				<h2><strong>ChatterBot</strong>이란?</h2>
+				<p>ChatterBot은 대화 목록을 학습하여 대답할 수 있는 Python 기반의 챗봇 엔진으로, 언어 독립적으로 설계되어 이론상 모든 언어를 학습하고 말할 수 있습니다.
+					ChatterBot은 처음에 대화에 관한 아무 정보도 없는 상태에서 시작하여, 사용자의 쿼리마다 해당 입력과 출력을 기억합니다. 그에 따라 입력이 들어올 때마다 점점 정확도와
+					반응할 수 있는 가짓수가 증가하는 구조를 갖고 있습니다.</p>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="container flex">
+			<div class="text editable">
+				<h2><strong>팀원 역할</strong></h2>
+
+				<table>
+					<tr>
+						<td>
+							<div class="namae"><strong>팀장</strong> 박민재</div>
+							2018312327 (minjae1025) </br>
+							cnsanet@gmail.com </br>
+							이슈 확인 및 버그 수정 </br></br>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div class="namae"><strong>팀원</strong> 강원모</div>
+							2017312381 (DropFL) </br>
+							dnjsah1230@gmail.com </br>
+							프로젝트 코드 분석 및 솔루션 제공 </br></br>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div class="namae"><strong>팀원</strong> 이승재</div>
+							2016314718 (rotmdwo) </br>
+							rotmdehf@naver.com </br>
+							제2외국어 데이터 추가 </br></br>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div class="namae"><strong>팀원</strong> 조규상</div>
+							2015314136 (kyusang200) </br>
+							kyusang200@naver.com </br>
+							이슈 확인 및 버그 수정 </br></br>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<div class="namae"><strong>팀원</strong> 최민석</div>
+							2018312327 (snowdolf99) </br>
+							snowdolf99@g.skku.edu </br>
+							전체적인 UI를 개선한다 </br>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="container flex">
+			<div class="text editable">
+				<h2><strong>프로젝트 현황</strong></h2>
+				<p>83명의 컨트리뷰터가 있으며, 가장 활발한 컨트리뷰터의 경우 약 15만 개의 코드를 수정하였다.
+					2014년부터 5년째 진행중인 프로젝트이며, 현재도 커밋이 이루어지고 있다.
+					릴리즈는 80번이 이루어진 상태이며, 가장 최근의 릴리즈는 3일 전이다.
+					현재 오픈된 이슈는 80개이며, 풀리퀘스트는 3개가 올라와 있다.
+					커밋은 총 1814번 이루어졌다.
+				</p>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="container flex">
+			<div class="text editable">
+				<h2><strong>활동 방안</strong></h2>
+				<p>일단 기본적으로 issue를 기반으로 코드를 수정한다. 대체적으로 한국어 데이터가 다른 언어에 비해 적다. 그래서 한국어 데이터를 추가함으로써 데이터의 질을 높일 수 있다. 시간이
+					된다면 ChatterBot의 기반이 되는 머신 러닝을 공부하고, 그 후에 국어 문법에 맞는 알고리즘으로 개선할 수도 있을 것이다.</p>
+			</div>
+		</div>
+	</section>
+
+	<section>
+		<div class="container flex">
+			<div class="text editable">
+				<h2><strong>활동 계획</strong></h2>
+				<p>chatterbot은 머신러닝을 기반으로 하고 있습니다. 머신러닝에 대한 내용은 건드리기 쉽지 않은 내용이므로 주로 data를 추가하는 활동을 할 예정입니다. data에는 언어 별로
+					폴더가 하나씩 있는데, 저희는 korean 폴더에 data를 추가할 것입니다. 우선 korean 폴더가 english 폴더에 비해 상대적으로 많이 빈약하므로, english 폴더
+					내의 대화들을 참고하여 이를 korean으로 번역하는 일을 할 것입니다. 그런데, 한국어의 대화와 영어의 대화의 차이로 인해 english 폴더의 대화를 번역하는 것 만으로는
+					부족할 것입니다. 따라서, 직접 대화를 만들어 추가하는 일도 할 것입니다. 대화를 추가하는 일은 잘 쓰여진 책 등 문헌을 참고하여 정제된 data를 만들어 추가해야 할 것입니다.
+					대화를 추가하는 일 뿐만 아니라, korean 폴더 내의 대화들 중에서 문법이나 문맥에 잘 맞지 않는 대화를 찾아 그것을 수정하는 일 또한 해야 할 것입니다.</p>
+			</div>
+		</div>
+	</section>
+
+
+
+	<section class="bottom-cta">
+		<h2 class="editable"> 저희가 이루어 나가고 있는 공간입니다.</h2>
+		<div class="button alt"><a href="./posts">Team Repository</a></div>
+	</section>
+</div>
