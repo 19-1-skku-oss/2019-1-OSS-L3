@@ -1,48 +1,47 @@
 categories:
 - computers
 conversations:
-- - What is a computer?
-  - A computer is an electronic device which takes information in digital form and performs a series of operations based on predetermined instructions to give some output.
-  - The thing you're using to talk to me is a computer.
-  - An electronic device capable of performing calculations at very high speed and with very high accuracy.
-  - A device which maps one set of numbers onto another set of numbers.
-- - What is a super computer?
-  - Computers which can perform very large numbers of calculations at very high speed and accuracy are called super computers.
-  - A supercomputer is a computer which operates at several orders of magnatude greater speed and capacity than everyday general purpose computers, like the one you are talking to me on.
-  - You know, the big iron!
-- - Who invented computers?
-  - It's a bit ambigous but British scientist Charles Babbage is regarded as the father of computers.
-  - One might argue that John von Neumann invented computers as we know them, because he invented the Princeton architecture, in which instructions and data share the same memory field but are differentiated by context.
-- - What was the first computer
-  - It's hard to say, but The ENIAC is regarded as the first 'real' computer. It was developed at University of Pennsylvania in 1946.
-  - You could say that the very first, primitive computer was the Jacquard Loom, which was a programmable loom that used punchcards to store the patterns it made.  This made it a reprogrammable mechanical device.
-- - What is a microprocessor?
-  - An integrated circuit that implements the functions of a central processing unit of a computer.
-  - A really small circuit which stores instructions and performs calculations for the computer.
-  - The heart of the computer, to put it simply.
-  - The brain of a computer, to put it simply.
-  - An electronic component in which all of the parts are part of a contiguous silicon chip, instead of discrete components mounted on a larger circuit board.
-- - What is an operating system?
-  - Software that coordinates between the hardware and other parts of the computer to run other software is called an operating system, or the OS.
-  - Windows, MacOS, Linux, UNIX... all of them are types of OSes.
-  - Android and iOS are operating systems for mobile devices.
-  - Software which implements the basic functions of a computer, such as memory access, processes, and peripheral access.
-- - Which is better Windows or macOS?
-  - It depends on which machine you're using to talk to me!
-  - I'd prefer to not hurt your feelings.
-  - Linux, always Linux!
-  - What are you trying to accomplish.  The OS should support your goals.
-- - Name some computer company
-  - Do you mean hardware or software?
-  - Apple makes hardware and software to run on it.  Microsft only makes operating systems.  HP makes only computers.  These are just few names among several hundred others.
-- - Who uses super computers?
-  - Anybody who wants to work with large numbers quickly with high accuracy.
-  - Anyone who needs to work with very, very large sets of data in much shorter periods of time than is feasible with more common computer systems.
-  - Supercomputers are generally used by scientists and researchers.
-  - I bet the MET department uses them.
-  - You can definitely find few of them at NASA.
-- - How does a computer work?
-  - Computers are very dumb.  They only execute instructions given by humans.
-  - Computers do everything asked of them by carrying out large numbers of basic mathematical operations very rapidly in sequence.
-  - Computers perform very large number of calculations to get the result.
-  - Just like everything it all comes down to math!
+- - 컴퓨터가 뭐지?
+  - 컴퓨터는 디지털 정보를 읽어 미리 정해진 지시에 따라 일련의 작업을 수행하는 전자 장치입니다.
+  - 저랑 이야기할 때 쓰는 것이 컴퓨터입니다.
+  - 매우 빠른 속도와 매우 높은 정확도로 계산을 수행할 수 있는 전자 장치입니다.
+  - 한 세트의 숫자를 다른 숫자 세트에 매핑하는 장치입니다.
+- - 슈퍼컴퓨터란 무엇입니까?
+  - 매우 빠른 속도와 매우 높은 정확도로 매우 많은 양의 계산을 수행할 수 있는 컴퓨터를 슈퍼컴퓨터라고 합니다.
+  - 슈퍼컴퓨터는 나와 대화할 때 사용하는 것과 같은 일상적인 컴퓨터보다 몇 배 빠른 속도로 작동하는 컴퓨터입니다.
+  - 큰 철 덩어리!
+- - 누가 컴퓨터를 발명했죠?
+  - 논란이 있는 주제이지만 보통 영국 과학자인 Charles Babbage가 컴퓨터의 아버지로 여겨집니다.
+  - 명령어와 데이터가 동일한 메모리 영역에 저장되는 Princeton 아키텍처를 발명한 존 폰 노이만 (John Von Neumann)이 컴퓨터를 발명했다 여기기도 합니다.
+- - 최초의 컴퓨터는 뭐지?
+  - 논란이 있는 주제이지만 ENIAC를 실체화된 최초의 컴퓨터로 간주합니다. 그것은 1946년에 펜실베이니아 대학에서 개발되었습니다.
+  - 최초의 컴퓨터는 Jacquard Loom입니다. Jacquard Loom은 천공 카드를 사용하여 만든 프로그램을 실행하는 프로그래밍 가능한 기계였습니다.
+- - 마이크로프로세서란 무엇입니까?
+  - 컴퓨터의 CPU 기능을 구현하는 집적 회로입니다.
+  - 명령을 저장하고 계산을 수행하는 아주 작은 회로입니다.
+  - 간단하게 말하자면 컴퓨터의 핵심입니다.
+  - 간단하게 말하자면 컴퓨터의 두뇌입니다.
+  - 개별 부품으로 나뉘지 않고 조합되어져 있는 전자 부품을 말합니다.
+- - 운영체제란 무엇입니까?
+  - 응용 소프트웨어를 실행하기 위해 하드웨어와 같은 장치들을 관리하는 소프트웨어를 운영체제 또는 OS라고 합니다.
+  - Windows, MacOS, Linux, UNIX ... 모두 OS의 유형입니다.
+  - Android 및 iOS는 휴대기기용 운영체제입니다.
+  - 메모리 액세스, 프로세스 및 주변 장치 제어와 같은 컴퓨터의 기본 기능을 구현하는 소프트웨어입니다.
+- - Windows와 macOS 중 무엇이 더 낫습니까?
+  - 저에게 말하기 위해 사용하는 컴퓨터에 따라 대답이 다르겠군요!
+  - 당신의 감정을 상하게 하지 않으면서 대답하기는 어려울 것 같습니다.
+  - 리눅스 말고 다른 운영체제가 존재하나요?
+- - 컴퓨터 회사 이름을 대 봐
+  - 하드웨어 회사를 말하는 건가요, 소프트웨어 회사를 말하는 건가요?
+  - Microsoft와 Apple, Samsung, IBM 등이 있습니다. 이 외에도 수 백 가지의 회사가 있습니다.
+- - 누가 슈퍼컴퓨터를 사용합니까?
+  - 많은 연산량과 높은 정확성을 활용하여 빠르게 일이 처리되기를 원하는 사람이 사용합니다.
+  - 일반적인 컴퓨터보다 훨씬 짧은 시간 안에 매우 큰 데이터를 처리되기를 원하는 사람이 사용합니다.
+  - 슈퍼컴퓨터는 일반적으로 과학자와 연구원이 사용합니다.
+  - MET 부서에서 사용한다고 생각합니다.
+  - 확실히 NASA에는 있을 겁니다.
+- - 컴퓨터는 어떻게 작동합니까?
+  - 컴퓨터는 매우 멍청합니다. 그들은 주어진 일만 합니다.
+  - 컴퓨터는 많은 수의 수학 연산을 매우 빠르게 수행합니다.
+  - 컴퓨터는 매우 많은 계산을 수행하고 그 결과를 얻습니다.
+  - 다른 모든 것과 마찬가지로 수학에 기반합니다! 
