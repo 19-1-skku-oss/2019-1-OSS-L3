@@ -231,6 +231,12 @@ class ChatBot(object):
             previous_statement_text
         ))
 
+        if not statement.search_text and statement.text:
+            statement.search_text = self.storage.tagger.get_text_index_string(statement.text)
+            
+        if not statement.search_in_response_to and statement.in_response_to:
+            statement.search_in_response_to = self.storage.tagger.get_text_index_string(statement.in_response_to)
+
         # Save the input statement
         return self.storage.create(**statement.serialize())
 
