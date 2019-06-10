@@ -1,39 +1,21 @@
-- links:
-  - name: Pricing
-    link: /pricing/
-  - name: Blog
-    link: /blog/
-  - name: About
-    link: /about/
+- header: Categories
+  links:
+  - name: Home
+    link: /
+  - name: Post
+    link: /posts
+  - name: About Team
+    link: /members
+- header: Links
+  links:
+  - name: This Repo.
+    link: https://github.com/19-1-skku-oss/2019-1-OSS-L3
+    new_window: true
+    social_icon: GitHub
+  - name: Original Repo.
+    link: https://github.com/gunthercox/ChatterBot
+    new_window: true
+    social_icon: GitHub
   - name: Contact
-    link: /contact/
-- links:
-  - name: Login
-    link: /
-    new_window: true
-  - name: Sign Up
-    link: /
-    new_window: true
-  - name: Docs
-    link: /
-    new_window: true
-  - name: Status
-    link: /
-    new_window: true
-- links:
-  - name: Facebook
-    link: https://facebook.com
-    new_window: true
-    social_icon: Facebook
-  - name: Twitter
-    link: https://twitter.com
-    social_icon: Twitter
-    new_window: true
-  - name: YouTube
-    link: https://youtube.com
-    social_icon: YouTube
-    new_window: true
-  - name: RSS
-    link: /feed.xml
-    social_icon: RSS
-    new_window: false
+    link: "mailto:cnsanet@gmail.com"
+    social_icon: Mail

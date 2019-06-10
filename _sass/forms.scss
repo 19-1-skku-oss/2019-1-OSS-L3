@@ -26,6 +26,23 @@
 	color: $brand-color;
 }
 
+.button.white a {
+	color: #006932;
+	text-decoration: none;
+	padding: 10px 30px;
+	border-radius: 3px;
+	background: white;
+	border: 1px solid #006932;
+	transition: .2s ease-in-out;
+	border-radius: 3px;
+	padding: 16px 50px;
+
+	&:hover {
+		background: #006932;
+		color: white;
+	}
+}
+
 textarea, input, button, select { font-family: inherit; font-size: inherit; }
 
 input[type=submit] {

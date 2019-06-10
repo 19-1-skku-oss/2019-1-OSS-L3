@@ -63,5 +63,21 @@
 
 	.position {
 		color: #666;
+		.sub {
+			color: #888;
+			font-size: 0.8em;
+			svg {
+				fill: #999;
+				transition: 0.3s;
+				position: relative;
+				top: 2px;
+				width: 14px;
+				height: 14px;
+	
+				&:hover {
+					fill: #00a4ca;
+				}
+			}
+		}
 	}
 }

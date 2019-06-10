@@ -12,8 +12,15 @@ description: ChatterBot project를 맡고있는 L3팀의 멤버들입니다.
 					<div class="elem">{{ person.blurb }}</div>
 				</div>
 			</div>
-			<div class="name"><a target="_blank" href="https://github.com/{{ person.github }}">{{ person.name }}</a></div>
-			<div class="position">{{ person.position }}</div>
+			<div class="name">
+				<a target="_blank" href="https://github.com/{{ person.github }}">{{ person.name }}</a>
+			</div>
+			<div class="position">
+				{{ person.stud_id }} | {{ person.position }} <br/>
+				<div class="sub">
+					{{ person.email }} <a href="mailto:{{ person.email }}">{% include social-icon.html icon="Mail" %}</a>
+				</div>
+			</div>
 		</li>
 	{% endfor %}
 </ul>
