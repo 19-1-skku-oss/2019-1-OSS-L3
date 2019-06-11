@@ -84,3 +84,36 @@ def get_random_response(input_statement, response_list, storage=None):
         len(response_list)
     ))
     return choice(response_list)
+
+
+
+def get_high_confidence_response(input_statement, response_list, storage=None):
+    """
+    :param input_statement: A statement, that closely matches an input to the chat bot.
+    :type input_statement: Statement
+
+    :param response_list: A list of statement options to choose a response from.
+    :type response_list: listrandom 
+
+    :param storage: An instance of a storage adapter to allow the response selection
+                    method to access other statements if needed.
+    :type storage: StorageAdapter
+
+    :return: Choose a high confidence response from the selection.
+    :rtype: Statement
+    """
+    select_statement = response_list[0]
+
+    for response in response_list:
+        if select_statement.confidence < response.confidence:
+            select_statement = response
+    
+    if select_statement.confidence == 0:
+        return get_most_frequent_response(
+                input_statement,
+                response_list,
+                storage
+            )
+    else:
+        return select_statement
+
