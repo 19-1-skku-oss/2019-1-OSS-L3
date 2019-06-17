@@ -41,7 +41,6 @@ GitHub ID: snowdolf99
 
 ## 기여 목록
  * [여기](https://github.com/19-1-skku-oss/2019-1-OSS-L3/wiki/%EA%B8%B0%EC%97%AC-%EB%AA%A9%EB%A1%9D)에서 확인 할 수 있습니다.
- * 활동 결과 두 개의 Pull Request가 받아들여졌습니다.
 ## 프로젝트 구조
 * [여기](https://19-1-skku-oss.github.io/2019-1-OSS-L3/2019/05/28/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B5%AC%EC%A1%B0/
 )에서 확인할 수 있습니다.
@@ -52,3 +51,4 @@ GitHub ID: snowdolf99
 ## Pull Request를 작성한 항목
  * [여기](https://github.com/19-1-skku-oss/2019-1-OSS-L3/wiki/Pull-Request%EB%A5%BC-%EC%9E%91%EC%84%B1%ED%95%9C-%EC%BD%94%EB%93%9C
 )에서 확인할 수 있습니다.
+ * 활동 결과 두 개의 Pull Request가 받아들여졌습니다.
