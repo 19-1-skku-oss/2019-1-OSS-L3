@@ -10,10 +10,10 @@ ChatterBot은 대화 목록을 학습하여 대답할 수 있는 Python 기반�
 
 ## 팀원 정보
 ### 팀장
-이름: 박민재  
-학번: 2018312327  
-이메일: cnsanet@gmail.com  
-GitHub ID: minjae1025  
+이름: ###  
+학번: 201831###  
+이메일: ###@gmail.com  
+GitHub ID: ###  
 
 ### 팀원
 이름: 강원모  
